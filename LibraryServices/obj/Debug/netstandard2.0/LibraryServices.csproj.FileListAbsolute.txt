@@ -1,0 +1,12 @@
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\bin\Debug\netstandard2.0\LibraryServices.deps.json
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\bin\Debug\netstandard2.0\LibraryServices.dll
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\bin\Debug\netstandard2.0\LibraryData.dll
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\bin\Debug\netstandard2.0\LibraryData.pdb
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\obj\Debug\netstandard2.0\LibraryServices.csprojAssemblyReference.cache
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\obj\Debug\netstandard2.0\LibraryServices.AssemblyInfoInputs.cache
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\obj\Debug\netstandard2.0\LibraryServices.AssemblyInfo.cs
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\obj\Debug\netstandard2.0\LibraryServices.csproj.CopyComplete
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\bin\Debug\netstandard2.0\LibraryServices.pdb
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\obj\Debug\netstandard2.0\LibraryServices.csproj.CoreCompileInputs.cache
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\obj\Debug\netstandard2.0\LibraryServices.dll
+C:\Users\Bayansan\Tugi_ASP.NET\Library\LibraryServices\obj\Debug\netstandard2.0\LibraryServices.pdb
