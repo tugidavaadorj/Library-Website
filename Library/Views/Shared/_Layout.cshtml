@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/boostrap.min.css" type="text/css">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/styles.css" />
+    <script src="~/js/site.js"></script>
 </head>
 <body>
+    <div class="loading" align="center">
+        <img src="/Images/loading.gif" alt="" />
+    </div>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed header">
         <header class="custom-header mdl-layout__header mdl-layout__header--waterfall">
             <div class="mdl-layout__header-row">
@@ -30,5 +34,8 @@
     </div>
     @RenderSection("Scripts", required: false)
     @RenderSection("Styles", required: false)
+    <script type="text/javascript">
+        ShowProgress();
+    </script>
 </body>
 </html>

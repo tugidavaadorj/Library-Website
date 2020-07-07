@@ -84,11 +84,12 @@ C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\bin\Debug\netcoreapp3.1\Microsoft
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
-C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Library.csproj.CoreCompileInputs.cache
-C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Library.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Checkout.cshtml.g.cs
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Hold.cshtml.g.cs
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Index.cshtml.g.cs
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Detail.cshtml.g.cs
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Branch\Detail.cshtml.g.cs
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Branch\Index.cshtml.g.cs
+C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Library.csproj.CoreCompileInputs.cache
+C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Library.MvcApplicationPartsAssemblyInfo.cache

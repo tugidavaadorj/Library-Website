@@ -21,6 +21,5 @@ namespace LibraryData
         public DbSet<LibraryAsset> LibraryAssets { get; set; }
         public DbSet<Hold> Holds { get; set; }
 
-
     }
 }

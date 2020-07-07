@@ -15,8 +15,6 @@ namespace LibraryData.Models
         public string TelephoneNumber { get; set; }
         public LibraryCard LibraryCard { get; set; }
         public virtual LibraryBranch HomeLibraryBranch { get; set; }
-
-
-
+        public string password { get; set; }
     }
 }

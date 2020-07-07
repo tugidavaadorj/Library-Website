@@ -250,6 +250,9 @@ namespace LibraryData.Migrations
                     b.Property<string>("TelephoneNumber")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("password")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("HomeLibraryBranchId");

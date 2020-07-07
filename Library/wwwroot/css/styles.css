@@ -1,4 +1,5 @@
-﻿﻿.logo {
+﻿
+﻿.logo {
     font-family: "Coda";
     font-size: 1.8em;
     font-weight: bold;
@@ -200,4 +201,35 @@
 #patronNoFees {
     color: #772b2d;
     font-weight: bold;
+}
+.modal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    border: 5px solid #67CFF5;
+    width: 300px;
+    height: 220px;
+    border-radius: 4px;
+    position: fixed;
+    background-color: White;
+    z-index: 9999;
+}
+
+#login-div {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    border: 5px solid #67CFF5;
+    padding: 10px 10px;
+}
+.field-validation-error{
+    color:red;
 }
