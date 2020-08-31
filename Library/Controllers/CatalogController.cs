@@ -19,9 +19,13 @@ namespace Library.Controllers
             _checkoutsService = checkouts;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string searching)
         {
             var assetModels = _assets.GetAll();
+            if (searching != null)
+            {
+                assetModels = assetModels.Where(x => x.Title.ToLower().Contains(searching.ToLower()));
+            }
             var listingResult = assetModels.Select(result => new AssetIndexListingModel
             {
                 Id = result.Id,

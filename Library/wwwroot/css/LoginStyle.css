@@ -1,0 +1,24 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-image: url('../images/books_vector_287226.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#login-div {
+    position: absolute;
+    z-index: 9999;
+    left: 40%;
+    top: 40%;
+    border: 5px solid #67CFF5;
+    padding: 10px 10px;
+    opacity: 0.95;
+    background-color: white;
+}
+
+.field-validation-error {
+    color: red;
+}

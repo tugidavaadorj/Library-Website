@@ -90,6 +90,6 @@ C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Vie
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Detail.cshtml.g.cs
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Branch\Detail.cshtml.g.cs
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Branch\Index.cshtml.g.cs
-C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Library.csproj.CoreCompileInputs.cache
 C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Library.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bayansan\Tugi_ASP.NET\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs

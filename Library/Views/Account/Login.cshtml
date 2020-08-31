@@ -1,0 +1,87 @@
+﻿@model Library.Models.Login.LogInInfo
+@{
+    ViewBag.Title = "Login Page";
+    Layout = null;
+} 
+
+<link href="~/css/LoginStyle.css" rel="stylesheet" />
+<head>
+    <meta name="viewport" content="width-device-width" />
+    <title>Login</title>
+</head>
+<body>
+    @*completly change up the login div structure*@
+    <div id="login-div">
+        @*@using (Html.BeginForm("Authorize", "Account", FormMethod.Post))
+        {
+            <table style="font-size: x-large">
+                <tr>
+                    <td></td>
+                    <td style="text-decoration:underline">Library ILS</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.CardID)</td>
+                    <td>@Html.EditorFor(model => model.CardID)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>@Html.ValidationMessageFor(model => model.CardID)</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.Password)</td>
+                    <td>@Html.EditorFor(model => model.Password)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>@Html.ValidationMessageFor(model => model.Password)</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label class="field-validation-error">@Html.DisplayFor(model => model.LoginErrorMessage)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="name" value="Login" />
+                        <input type="reset" name="name" value="Clear" />
+                    </td>
+                </tr>
+            </table>
+        }*@
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="Login" asp-route-returnUrl="@ViewData["ReturnUrl"]">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="CardID" class="control-label"></label>
+                        <input asp-for="CardID" class="form-control" />
+                        <span asp-validation-for="CardID" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    <div class="form-group">
+                         <input type="submit" value="Log in" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        @*<form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            Username: <input asp-for="CardID" value="username" /><br />
+            Password: <input asp-for="Password" value="password" /><br />
+            <input type="submit" value="Login" onclick="location.href='<%: Url.Action("Authorize", "Login") %>'"onclick="location.href='<%: Url.Action("Authorize", "Login") %>'"/>
+            @Html.AntiForgeryToken()
+        </form>*@
+    </div>
+
+
+</body>
+
+@section Scripts{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

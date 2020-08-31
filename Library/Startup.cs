@@ -23,7 +23,7 @@ namespace Library
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfiguration Configuration { get; set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -37,21 +37,13 @@ namespace Library
             services.AddScoped<ILibraryBranch, LibraryBranchService>();
             services.AddDbContext<LibraryContext>(options 
                 => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
-            //services.AddMvc().AddRazorPagesOptions(options =>
-            //{
-            //    options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "");
-            //}).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
-            services.AddAuthentication(options =>
-            {
-                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-            }).AddCookie(options => { options.LoginPath = ""; });
-            services.AddMvc().AddRazorPagesOptions(options =>
-            {
-                options.Conventions.AuthorizeFolder("/Views/Home/index.cshtml");
-                options.Conventions.AllowAnonymousToPage("/Views/Login/index");
-            });
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+           .AddCookie(options =>
+           {
+               options.LoginPath = "/Account/Login/";
+               options.LogoutPath = "/Account/Logout/";
+           });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -78,7 +70,7 @@ namespace Library
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Login}/{action=Index}/{id?}");
+                    pattern: "{controller=Account}/{action=Login}/{id?}");
             });
         }
     }
